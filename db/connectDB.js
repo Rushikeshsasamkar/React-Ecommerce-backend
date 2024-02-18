@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 
-const mongodbCluster='mongodb+srv://rushikeshsasamakar94:Rushi%40111@clusterecommerce.7kfrpkc.mongodb.net/';
+const mongodbCluster='process.env.MONGO_DB_URL';
 
 // connect to db
 mongoose
