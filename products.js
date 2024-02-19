@@ -6,7 +6,7 @@ const Product = require("./models/products");
 const data = require("./data.json");
 
 async function restoreProducts() {
-    await mongoose.connect(''mongodb+srv://technicalprogramming111:bZl3Qv3K1cL1we8v@cluster0.pwauodx.mongodb.net/, {});
+    await mongoose.connect(''mongodb+srv://technicalprogramming111:bZl3Qv3K1cL1we8v@cluster0.pwauodx.mongodb.net/test/products/, {});
 
     await Category.deleteMany({});
     await Product.deleteMany({});
